@@ -1,0 +1,14 @@
+/* Compact PS4-friendly presentation: stable 16:9, no fonts or image downloads. */
+html,body{background:#030814!important}
+.screen{border:2px solid #d9b567!important;box-shadow:inset 0 0 0 3px rgba(217,181,103,.16),0 0 0 2px #3f301a;background:#08152a!important}
+.glass-deck{border:1px solid rgba(218,179,96,.55)!important;border-radius:0!important;background:rgba(6,18,37,.45)}
+.header{height:clamp(68px,10vh,112px);border-bottom-color:#9d793d!important}
+.versions{flex-wrap:wrap;justify-content:flex-end;gap:5px!important;max-width:55%}
+.versions #goldhenNews{flex:none}
+#personalGoldhen{display:block;width:100%;text-align:right;border:0;background:none;font-size:12px;color:#e4c789;padding:0}
+.language-switch{display:flex;gap:5px;justify-content:flex-end;width:100%}
+.language-switch button{border:1px solid #766039;border-radius:4px;background:#142542;color:#d2d9e3;font-size:13px;padding:2px 9px}
+.language-switch button[aria-pressed="true"]{color:#08152a;background:#e4c27b;border-color:#f6d998}
+.launch-meter i,#launchProgressFill,#cacheFill{background:#47aef2!important;background-image:none!important;box-shadow:0 0 9px rgba(71,174,242,.65)!important;transition:width .35s linear!important}
+@media(max-height:650px){#personalGoldhen{font-size:10px}.language-switch button{font-size:10px;padding:1px 6px}}
+@media(max-width:850px){#personalGoldhen{font-size:7px}.language-switch button{font-size:8px;padding:0 4px}.versions{gap:2px!important}}

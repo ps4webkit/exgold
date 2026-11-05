@@ -1,0 +1,25 @@
+CACHE MANIFEST
+# MCFORT9669 Exclusive Edition 2026-11-05 build 1
+CACHE:
+index.html
+style.css
+refresh.css
+exclusive.css
+firmware-map.js
+error-report.js
+i18n.js
+panels.js
+ui.js
+goldhen.bin
+engine/launch.html?log=1
+engine/jb.js
+engine/core.js
+engine/mem.js
+engine/int64.js
+engine/ps4_offsets.js
+engine/rpc_worker.js
+engine/patches/1302.bin
+engine/patches/1350.bin
+engine/patches/1352.bin
+NETWORK:
+*
