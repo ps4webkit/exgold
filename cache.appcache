@@ -1,0 +1,20 @@
+CACHE MANIFEST
+# Exclusive Edition 13.02 - 2026-11-06-02-goldhen-v2.4b18.13
+CACHE:
+./
+index.html
+jb.html
+jb.js
+jb.js?v=10
+core.js
+core.js?v=10
+mem.js
+int64.js
+ps4_offsets.js
+rpc_worker.js
+goldhen.bin
+payload2.bin
+patches/1302.bin
+
+NETWORK:
+*
